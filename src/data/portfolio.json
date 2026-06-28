@@ -1,0 +1,12 @@
+[
+  { "id": 1, "img": "/assets/work/assets_work_after-hours-frequency.png", "alt": "High-contrast portrait with neon lighting effects and graphic overlay treatment.", "title": "After Hours Frequency", "cat": "MIXED MEDIA", "year": "[YEAR]", "wide": true },
+  { "id": 2, "img": "/assets/work/assets_work_rose-circuit.png", "alt": "Rose motif layered over geometric blocks and sprayed color accents.", "title": "Rose Circuit", "cat": "SPRAY + ACRYLIC", "year": "[YEAR]" },
+  { "id": 3, "img": "/assets/work/assets_work_never-apologize.png", "alt": "Typographic artwork with the phrase “never apologize being you” over layered texture.", "title": "Never Apologize", "cat": "COMMISSION", "year": "[YEAR]" },
+  { "id": 4, "img": "/assets/work/assets_work_frequency-grid.png", "alt": "Abstract grid composition with bold black geometry and layered color fields.", "title": "Frequency Grid", "cat": "SPRAY + ACRYLIC", "year": "[YEAR]" },
+  { "id": 5, "img": "/assets/work/assets_work_direct-gaze.png", "alt": "Close-up portrait fragment focused on eyes with layered paint and text elements.", "title": "Direct Gaze", "cat": "MIXED MEDIA", "year": "[YEAR]" },
+  { "id": 6, "img": "/assets/work/assets_work_orbit-porttrait.png", "alt": "Abstract face drawing with spiral motion lines on a light sketch-style background.", "title": "Orbit Portrait", "cat": "MIXED MEDIA", "year": "[YEAR]", "wide": true },
+  { "id": 7, "img": "/assets/work/assets_work_halo-drift.png", "alt": "Floating figure collage with soft green and pink halo tones and dark negative space.", "title": "Halo Drift", "cat": "COLLAGE", "year": "[YEAR]" },
+  { "id": 8, "img": "/assets/work/assets_work_vector-rhythm.png", "alt": "Abstract acrylic piece with neon pink linework, blue shapes, and dark ground.", "title": "Vector Rhythm", "cat": "ACRYLIC", "year": "[YEAR]" },
+  { "id": 9, "img": "/assets/work/assets_work_smoke-signal.png", "alt": "High-contrast figure composition with smoky textures and pink accent marks.", "title": "Smoke Signal", "cat": "MIXED MEDIA", "year": "[YEAR]" },
+  { "id": 10, "img": "/assets/work/assets_work_crimson-bloom.png", "alt": "High-contrast rose linework in vivid pink and red over a light background.", "title": "Crimson Bloom", "cat": "ACRYLIC", "year": "[YEAR]" }
+]

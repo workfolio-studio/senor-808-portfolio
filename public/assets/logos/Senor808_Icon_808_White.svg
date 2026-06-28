@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <style>
+    .bg-circle { stroke: rgba(255, 255, 255, 0.08); stroke-width: 1.5; }
+    .freq-orbit { stroke: #D81B60; stroke-width: 2.5; stroke-dasharray: 100 35; }
+    .freq-sub-orbit { stroke: rgba(255, 255, 255, 0.25); stroke-width: 1.5; stroke-dasharray: 4 6; }
+    .glow-point { fill: #D81B60; filter: url(#glow); }
+    .stencil-text { font-family: 'Sora', 'Inter', sans-serif; font-weight: 800; font-size: 14px; fill: #ffffff; letter-spacing: 0.15em; }
+  </style>
+
+  <!-- Concentric frequency rings -->
+  <circle cx="100" cy="100" r="90" class="bg-circle" />
+  <circle cx="100" cy="100" r="90" class="freq-orbit" transform="rotate(25 100 100)" />
+  <circle cx="100" cy="100" r="76" class="freq-sub-orbit" />
+
+  <!-- The stylized interlocking "808" structure -->
+  <g transform="translate(100, 100)">
+    <!-- Left Ring "8" (Stacked geometric circles) -->
+    <g transform="translate(-40, 0)">
+      <circle cx="0" cy="-18" r="16" stroke="#ffffff" stroke-width="4.5" />
+      <circle cx="0" cy="18" r="20" stroke="#ffffff" stroke-width="4.5" />
+    </g>
+
+    <!-- Right Ring "8" -->
+    <g transform="translate(40, 0)">
+      <circle cx="0" cy="-18" r="16" stroke="#ffffff" stroke-width="4.5" />
+      <circle cx="0" cy="18" r="20" stroke="#ffffff" stroke-width="4.5" />
+    </g>
+
+    <!-- Center Zero "0" with a heavy stencil profile -->
+    <ellipse cx="0" cy="0" rx="14" ry="28" stroke="#D81B60" stroke-width="4.5" />
+    
+    <!-- Bold diagonal slash representing a physical stencil cutting/spraying mark -->
+    <line x1="-65" y1="35" x2="65" y2="-35" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+    <line x1="-55" y1="45" x2="55" y2="-45" stroke="#D81B60" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Accent glow spots -->
+  <circle cx="100" cy="24" r="4.5" class="glow-point" />
+  <circle cx="60" cy="155" r="3" class="glow-point" />
+</svg>

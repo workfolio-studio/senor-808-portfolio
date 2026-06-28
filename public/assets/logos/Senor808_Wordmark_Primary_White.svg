@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 60" fill="none">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@700;800&amp;family=JetBrains+Mono&amp;display=swap');
+    .wm-brand {
+      font-family: 'Sora', 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 24px;
+      letter-spacing: 0.16em;
+      fill: #ffffff;
+    }
+    .wm-accent {
+      fill: #D81B60;
+    }
+    .wm-sub {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 8.5px;
+      font-weight: 500;
+      letter-spacing: 0.44em;
+      fill: #8A99AD;
+    }
+    .wm-line {
+      stroke: #D81B60;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-dasharray: 40 10;
+    }
+    .stencil-cut {
+      stroke: #0B0F14;
+      stroke-width: 3;
+    }
+  </style>
+
+  <!-- Left Side Geometric Logo Icon (Mini 808 Emblem) -->
+  <g transform="translate(15, 30)">
+    <!-- Interlocking minimalist stencil rings -->
+    <circle cx="0" cy="-10" r="10" stroke="#ffffff" stroke-width="2.5" />
+    <circle cx="0" cy="10" r="11.5" stroke="#ffffff" stroke-width="2.5" />
+    <!-- Center spacer -->
+    <ellipse cx="18" cy="0" rx="6" ry="12" stroke="#D81B60" stroke-width="2.5" />
+    
+    <!-- Right side ring -->
+    <circle cx="36" cy="-10" r="10" stroke="#ffffff" stroke-width="2.5" />
+    <circle cx="36" cy="10" r="11.5" stroke="#ffffff" stroke-width="2.5" />
+    
+    <!-- Accent line and cuts -->
+    <line x1="-15" y1="12" x2="51" y2="-12" stroke="#D81B60" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Text elements -->
+  <g transform="translate(85, 33)">
+    <text x="0" y="0" class="wm-brand">SEÑOR <tspan class="wm-accent">808</tspan></text>
+    <text x="1" y="14" class="wm-sub">VISUAL ART &amp; ARCHIVE</text>
+  </g>
+</svg>
