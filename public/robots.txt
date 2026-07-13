@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://workfolios.github.io/senor-808/sitemap.xml
